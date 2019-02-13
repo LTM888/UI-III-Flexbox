@@ -64,3 +64,192 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Copy and paste your work from yesterday here and start to refactor into flexbox */
+                 /* Top Nav */
+
+.containerhome {
+	width: 85%;
+	margin: 0 auto;
+	box-sizing: border-box;
+	/* border: 1px solid red; */
+}
+				
+.nav-header nav a {
+	display: inline-block;
+	margin: 50px; 
+	align-content: center;
+}
+				
+.nav-header{
+	margin-bottom: 20px;
+}
+				
+nav a {
+	padding-top: 38px;
+	align-content: center;
+	text-decoration: none;
+	color: lightgrey;
+	text-align: center; 
+				
+}
+				
+a:hover {
+	background: white;
+	color: dimgray;
+}
+				
+header nav .first-anchor {
+	margin-left: 0;
+					
+}
+				
+.logo {
+	/* border: 1px solid green; */
+	margin-left: 150px;
+}
+				
+								 /* topsection */
+								 
+.topsection {
+	display: flex;
+	width: 100%;
+	align-content: space-between;
+    
+}
+		
+.topdiv {
+	display: flex;
+	width: 95%;
+}
+
+.textcontent   {
+	/* border: 1px solid red; */
+	width: 100%;
+}
+
+.circleimage {
+	display: flex;
+
+}
+
+
+
+				
+.topdiv .textcontent  h1 {
+	font-size: 80px;
+	padding: 55px;
+	text-align: center;
+					
+}
+				
+
+
+.topsection .textcontent .btn {
+	background: white;
+	vertical-align: top;
+	margin-top: 6px;
+	padding: 8px 44px;
+	font-size: 17px;
+	border: 1px solid black;
+	cursor: pointer;
+} 
+				  
+.topsection .textcontent .btn:hover {
+	background: black;
+	color: white;
+}
+				
+.btn  {
+	display: block;
+	margin-left: 350px; 
+	position: relative;
+	cursor: pointer;
+} 
+				
+.middlecontent {
+	display: flex;
+	width: 95%;
+	border-top: 1px solid black;
+	margin-top: 25px;
+	align-content: center;
+					
+} 
+				
+.features {
+	display: inline-block;
+ 	padding: 30px;
+}
+				
+.about {
+	display: inline-block;
+	 padding: 30px;
+}
+				
+				
+.middle-img {
+	display: block;
+	width: 1229px;
+}
+					
+.bottomcontent {
+	width: 95%;
+	display: flex;
+	border-bottom: 1px solid black;
+	
+}
+		
+				
+.services {
+	display: inline-block;
+	width: 400px;
+	height: 200px;
+	padding: 25px;
+    margin-right: 25px;
+	
+}
+				
+.product {
+	display: inline-block;
+	width: 400px;
+	height: 200px;
+	padding: 20px;
+	margin-right: 25px;
+}
+				
+.vision {
+	display: inline-block;
+	 width: 400px;
+	height: 200px;
+	padding: 20px;
+}
+				
+footer {
+	box-sizing: border-box;
+}
+				
+.footernav {
+	padding: 25px;
+}
+				
+footer p {
+	text-align: center;
+}
+
+
+		/* services page */
+		
+.containerhome-service .nav-header-services {
+	display: flex;
+	width: 95%;
+	margin: 0 auto;
+}
+
+.nav-header-services nav a {
+	border: 1px solid red;
+	width: 100%;
+}
+
+nav a {
+	margin: 59.4px;
+	background: blue;
+}
+
