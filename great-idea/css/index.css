@@ -267,7 +267,7 @@ nav a {
 	/* background: blue; */
 	padding: 30px;
 	margin: 0 auto;
-	border-bottom: 1px solid black;
+	border-bottom: 2px solid black;
 }
 
 .headertext h1  {
@@ -293,7 +293,7 @@ nav a {
 
 .bottomehalf .bottomtwo {
 	display: flex;
-	
+	border-bottom: 2px solid black;
 	margin: 0 auto;
 	width: 89%;
 }
@@ -348,7 +348,7 @@ button:active {
 	padding: 45px;
 	margin: 15px;
 	border: 2px solid black;
-	background: lightslategrey;
+	background: lightgray;
 }
 
 .UX {
@@ -357,7 +357,7 @@ button:active {
 	height:300px;
 	padding: 45px;
 	margin: 15px;
-	background: lightslategrey;
+	background: lightgray;
 	border: 2px solid black;
 }
 
@@ -367,7 +367,7 @@ button:active {
 	height:300px;
 	padding: 45px;
 	margin: 15px;
-	background: lightslategrey;
+	background: lightgray;
 	border: 2px solid black;
 }
 
@@ -377,7 +377,7 @@ button:active {
 	height:300px;
 	padding: 45px;
 	margin: 15px;
-	background: lightslategrey;
+	background: lightgray;
 	border: 2px solid black;
 }
 
@@ -388,7 +388,7 @@ button:active {
 	height:300px;
 	padding: 45px;
 	margin: 15px;
-	background: lightslategrey;
+	background: lightgray;
 	border: 2px solid black;
 }
 
@@ -399,12 +399,57 @@ button:active {
 	height:300px;
 	padding: 45px;
 	margin: 15px;
-	background: lightslategrey;
+	background: lightgray;
 	border: 2px solid black;
 }
 
 footer .lastsection  {
-	background: gray;
-	width: 95%;
 	display: flex;
+	align-content: center; 
+	width: 87%; 
+	display: flex;
+	margin: 0 auto;
+	margin-bottom: 87px;
 }
+
+.lasttext {
+	width : 860px; 
+	padding: 45px;
+	margin: 0 auto;
+	;
+}
+
+.lasttext p {
+	width: 80%;
+	height:40%; 
+	text-align: justify;
+	text-justify: inter-word;
+	line-height: 1.4em;
+	
+	
+}
+
+
+.lasttext ul li {
+	list-style-type: disc;
+	width: 75%;
+	margin-left: 40px;
+	margin: 20px;
+}
+
+.services-info {
+	height:550% ;
+	width: 550px ;
+	display: inline-block;
+	margin: 0 auto;
+	margin-top: 18px;
+	
+	
+	
+}
+
+footer p {
+	align-content: center;
+}
+
+
